@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-TAREFAS  = []
+TAREFAS = []
 
 app = FastAPI()
 
