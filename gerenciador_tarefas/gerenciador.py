@@ -1,9 +1,7 @@
 from fastapi import FastAPI
-
-TAREFAS = []
-
 app = FastAPI()
 
+TAREFAS = []
 
 @app.get("/tarefas")
 def listar():
